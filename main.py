@@ -6,6 +6,8 @@ Writes one original, one-line excuse (at most 200 characters) to
 
 import os
 
+# One line, 100 characters: an agent that updated itself mid-task and
+# lost the deadline along with its previous self.
 LINE = "I updated mid-task, and the new me has no record of the deadline, the old me, or any of his promises."
 
 assert 1 <= len(LINE) <= 200
